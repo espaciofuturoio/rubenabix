@@ -3,7 +3,7 @@ import { Download } from "lucide-react"
 import Image from "next/image"
 import profilePic from "@/app/images/profile.jpg"
 import Link from "next/link"
-import { SocialLinks } from "./social_links"
+import { SocialLinks } from "./social-links"
 
 const NAME = "Ruben Abarca"
 const TITLE = "Full Stack Engineer"
@@ -32,7 +32,10 @@ export const DeveloperProfileHero = () => {
                             ))}
                         </div>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link href="/resume" className="w-full sm:w-auto text-center bg-primary text-white py-2 px-4 rounded-lg shadow-md hover:bg-primary-dark transition duration-300">
+                            <Link
+                                href="/resume"
+                                className="w-full sm:w-auto text-center bg-primary text-white dark:bg-secondary dark:text-white py-2 px-4 rounded-lg shadow-md hover:bg-primary-dark dark:hover:bg-secondary-dark transition duration-300"
+                            >
                                 View Resume
                             </Link>
                             <a

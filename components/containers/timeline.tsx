@@ -142,8 +142,8 @@ const TimelineItem = ({ item, index }: { item: TimelineItem; index: number }) =>
                         {item.description}
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
-                        {item.technologies.map((tech, techIndex) => (
-                            <Badge key={techIndex} variant="secondary" className="text-xs">
+                        {item.technologies.map((tech) => (
+                            <Badge key={tech} variant="secondary" className="text-xs">
                                 {tech}
                             </Badge>
                         ))}
