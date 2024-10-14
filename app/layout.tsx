@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Ruben Abarca | Full Stack Engineer",
-  description: "Passionate about crafting elegant solutions to complex problems. With 7+ years of experience in full-stack development, I bring ideas to life through code.",
+  description: "Passionate about crafting elegant solutions to complex problems. With 9+ years of experience in full-stack development, I bring ideas to life through code.",
 };
 
 export default function RootLayout({
@@ -27,6 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         {/* Google tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-7DMK64M3WD"
