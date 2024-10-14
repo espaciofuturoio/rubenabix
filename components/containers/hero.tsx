@@ -4,10 +4,11 @@ import { Download } from "lucide-react"
 import Image from "next/image"
 import profilePic from "@/app/images/profile.jpg"
 import Link from "next/link"
+import { SocialLinks } from "./social_links"
 
 const NAME = "Ruben Abarca"
 const TITLE = "Full Stack Engineer"
-const DESCRIPTION = "Passionate about crafting elegant solutions to complex problems. With 7+ years of experience in full-stack development, I bring ideas to life through code."
+const DESCRIPTION = "Passionate about crafting elegant solutions to complex problems. With 9+ years of experience in full-stack development, I bring ideas to life through code."
 const SKILLS = ["React", "Node.js/BunJS", "TypeScript", "Go", "AWS", "Google Cloud", "Web3"]
 
 export const DeveloperProfileHero = () => {
@@ -35,12 +36,15 @@ export const DeveloperProfileHero = () => {
                             <Link href="/resume" className="w-full sm:w-auto text-center bg-primary text-white py-2 px-4 rounded-lg shadow-md hover:bg-primary-dark transition duration-300">
                                 View Resume
                             </Link>
-                            <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                            <a
+                                href="https://drive.google.com/uc?export=download&id=1DVuQAQrCEmJqSUXvv4jcmBm7-qTbcPQE"
+                                className="w-full sm:w-auto text-center bg-transparent border border-primary text-primary py-2 px-4 rounded-lg shadow-md hover:bg-primary hover:text-white transition duration-300"
+                            >
                                 Download CV
-                                <Download className="ml-2 h-4 w-4" />
-                            </Button>
+                                <Download className="ml-2 h-4 w-4 inline-block" />
+                            </a>
                         </div>
-
+                        <SocialLinks />
                     </div>
                     <div className="relative">
                         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-primary/20 rounded-full blur-3xl" />

@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const SOCIAL_MEDIA = {
     github: "https://github.com/rubenabix",
     linkedin: "https://www.linkedin.com/in/rubenabix/",
-    email: "mailto:rubenabix@gmail.com",
+    email: "mailto:abarca.ruben73@gmail.com",
 }
 
 

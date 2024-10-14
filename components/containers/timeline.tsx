@@ -21,6 +21,14 @@ type TimelineItem = {
 
 const timelineData: TimelineItem[] = [
     {
+        id: "2023-2024",
+        date: "March 2023 – October 2024",
+        title: "Full Stack Developer",
+        company: "Full-stack Engineer @ Deezy Inc, USA",
+        description: "Developed an open-source Marketplace for selling ordinals, leveraging blockchain technology. API development for Rare Satoshis (rare Bitcoin inscriptions). Built a tax application tailored for Bitcoin transactions.",
+        technologies: ["ReactJS", "TypeScript", "NodeJS", "Next.JS", "PostgreSQL", "Blockchain", "Nostr", "Bitcoin", "Ordinals", "Runes", "BRC20"],
+    },
+    {
         id: "2022-2023",
         date: "2022 - 2023",
         title: "Full Stack Developer",
