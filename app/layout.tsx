@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Ruben Abarca | Full Stack Engineer",
-  description: "Passionate about crafting elegant solutions to complex problems. With 9+ years of experience in full-stack development, I bring ideas to life through code.",
+  description: "Passionate developer and engineer with nine years of experience in web and mobile applications, specializing in financial and Bitcoin technologies. Proficient in Agile Scrum and Kanban methodologies. Next.js, React, React Native, Skia, TypeScript, Node.js, Go, AWS, Google Cloud, Web3, Bitcoin, Ordinals, Nostr, BRC20, Bitcash Bank, RareMint, Keeper Solutions, Keeper Tokens, BitcashUSD, Bitcoin Inscriptions, Bitcoin Transactions, Bitcoin Tax, Bitcoin Marketplace, Bitcoin API, Bitcoin Blockchain, Bitcoin NFTs, Bitcoin Ordinals, Bitcoin Runes, Bitcoin BR",
 };
 
 export default function RootLayout({

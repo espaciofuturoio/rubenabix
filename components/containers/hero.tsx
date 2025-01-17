@@ -7,7 +7,7 @@ import { SocialLinks } from "./social-links"
 
 const NAME = "Ruben Abarca"
 const TITLE = "Full Stack Engineer"
-const DESCRIPTION = "Passionate about crafting elegant solutions to complex problems. With 9+ years of experience in full-stack development, I bring ideas to life through code."
+const DESCRIPTION = "Passionate developer and engineer with nine years of experience in web and mobile applications, specializing in financial and Bitcoin technologies. Proficient in Agile Scrum and Kanban methodologies."
 const SKILLS = ["React", "Node.js/BunJS", "TypeScript", "Go", "AWS", "Google Cloud", "Web3"]
 
 export const DeveloperProfileHero = () => {
@@ -39,7 +39,7 @@ export const DeveloperProfileHero = () => {
                                 View Resume
                             </Link>
                             <a
-                                href="https://drive.google.com/uc?export=download&id=1DVuQAQrCEmJqSUXvv4jcmBm7-qTbcPQE"
+                                href="https://drive.google.com/uc?export=download&id=12yqvccYl_B03Bf35XRU7O7NaGCyP-t86"
                                 className="w-full sm:w-auto text-center bg-transparent border border-primary text-primary py-2 px-4 rounded-lg shadow-md hover:bg-primary hover:text-white transition duration-300"
                             >
                                 Download CV
