@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 
 const SOCIAL_MEDIA = {
-    github: "https://github.com/rubenabix",
+    github: "https://github.com/espaciofuturoio",
     linkedin: "https://www.linkedin.com/in/rubenabix/",
     email: "mailto:abarca.ruben73@gmail.com",
 }
